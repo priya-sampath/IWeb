@@ -1,0 +1,798 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.maindiv{
+    width: 70%;
+    margin:auto;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks .list1 li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+.navlinks .list2 li{
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+.navlinks .list2 li a{
+    text-decoration: none;
+    color: rgb(158, 149, 149);
+}
+
+.navlinks .list1 li .firstlogo{
+    margin-bottom: -50px;
+    cursor: pointer;
+}
+
+
+.navlinks .list1 li .btncourse{
+      margin-bottom: -50px;
+      padding: 10px;  
+      font-size: 12px;
+      background-color : #ff3300;
+      color: white; 
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+
+}
+.navlinks .list2 .btnsignup{
+    padding: 10px;
+    font-size: 12px;
+    background-color: #ff3300;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.navlinks .list1 li .arrowcourse{
+    height: 10px;
+    width: 12px;
+    border: white;
+    transform: rotate(180deg);
+}
+.navlinks .list2 li .arrowmore{
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}  
+.slider{
+    overflow: hidden;
+    height: 400px;
+}
+.slider .slide{
+    position: relative;
+    width: 600%;
+    margin: 0;
+    left: 0;
+    animation: 30s sllider infinite;
+}
+.slider .slide a img{
+    float: left;
+    width: 16%;
+}
+@keyframes sllider{
+    0% {
+        left: 0;
+    }
+    13% {
+        left: 0;
+    }
+    16% {
+        left: -100%;
+    }
+    30% {
+        left: -100%;
+    }
+    33%{
+        left: -200%;
+    }
+    46%{
+        left: -200%;
+    }
+    50%{
+        left: -300%;
+    }
+    63%{
+        left: -300%;
+    }
+    66%{
+        left: -400%;
+    }
+    80%{
+        left: -400%;
+    }
+    83%{
+        left: -500%;
+    }
+    96%{
+        left: -500%;
+    }
+    100%{
+        left: -600%;
+    }
+}
+.marginn{
+    margin-left: 150px;
+}
+.boxmg{
+    margin: 15px 15px 15px 15px;
+}
+.mg{
+    margin-left: 300px;
+}
+.imgc{
+    margin-top: 50px;
+}
+.mg1{
+    margin-left: 60px;
+    margin-top: -25px;
+}
+.df{
+    display: inline;
+}
+
+.bld{
+    font-weight: bold;
+}
+.w30{
+    width: 38%;
+}
+
+.cbtndiv button{
+    margin-top: 10px;
+    margin-left: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #ff3300;
+    color: white;
+    cursor: pointer;
+}
+.heading2{
+    width: 70%;
+    margin-top: 50px;
+    margin: auto; 
+}
+.heading2 h1{
+    font-weight: bold;
+}
+
+
+.holderdiv{
+    max-width: 70%;
+    display: grid;
+    width: auto;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
+    margin: auto;
+}
+
+.holderdiv .sliderdiv{
+    display: flex;
+    width: calc(150px * 12);
+}
+
+.slidediv{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,.7));
+    border-radius: 10px;
+
+}
+
+.slidediv img{
+    width: 100%;
+    transition: transform 1s;
+}
+.slidediv img:hover{
+    transition: 5s;
+    transform: translateZ(20px);
+}
+
+.heading3{
+    width: 70%;
+    margin-top: 150px;
+    margin: auto; 
+}
+.heading3 h1{
+    font-weight: bold;
+}
+
+.headinglist{
+    width: 70%;
+    margin-top: 15px;
+    margin: auto;
+}
+
+.headinglist li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.headinglist li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+.headinglist .underline{
+    border-bottom: 2px solid #ff3300;
+}
+.headinglist .underline .clr{
+    color: #ff3300;
+}
+
+.imageheading1{
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+.imageheading1 p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.imageheading1 h3{
+    color: #ff3300;
+    text-align: right;
+}
+.rot{
+    transform: rotate(90deg);
+}
+.maincontainer{
+    max-width: 70%;
+    overflow: hidden;
+    position: relative; 
+    flex-wrap: wrap;
+    margin: auto;
+    height: 390px;
+}
+
+.maincontainer .boxcontainer{
+    display: flex;
+    width: calc(320px*19);}
+   /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: calc(320px*11);
+    border: none;
+    overflow: hidden;
+    height: 390px;
+    animation: scrolll 40s linear infinite;   
+}
+
+@keyframes scrolll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-320px*19));
+    }
+}*/
+    
+.maincontainer .boxcontainer .box{
+    display: block;
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    filter: drop-shadow();
+    max-height: 390px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.maincontainer .boxcontainer:hover{
+    animation-play-state: paused;
+}
+
+.maincontainer .boxcontainer .box .image{
+    object-fit: cover;
+}
+.maincontainer.boxcontainer .box .info{
+    border-radius: 20px;
+}
+.maincontainer .boxcontainer .box .info .subinfologo{
+    display: flex;
+    padding-left: 10px;
+}
+.maincontainer.boxcontainer .box .info .subinfologo img{
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.maincontainer .boxcontainer .box .info .subinfologo .newlogo {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.maincontainer .boxcontainer .box .info .subinfologo p{
+ border-left: 1px solid rgb(158, 149, 149);
+ padding-left: 10px;
+}
+.maincontainer .boxcontainer .box .info .subinfoheading p{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.maincontainer .boxcontainer .box .info .subinfoheading{
+    display: flex;
+    padding-left: 10px;
+}
+.maincontainer .boxcontainer .box .info .subinfoheading span{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.maincontainer .boxcontainer .box .info .subinfoclock{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.maincontainer .boxcontainer .box .info .subinfolast{
+    color: #ff3300;
+    border-top: 1px solid rgb(158, 149, 149);
+    text-align: center;
+}
+.btndiv{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.centerbutton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background-color: #ff3300;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.bg{
+    background-color: #ccc;
+}
+.bg .boxcontainerbg{
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    max-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.bg .boxcontainerbg .boxm a img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.f18{
+    font-size: 18px;
+}
+.subinfolast1 button{
+    color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.mdiv{
+    max-width: 70%;
+    overflow: hidden;
+    position: relative; 
+    flex-wrap: wrap;
+    margin: auto;
+    height: 235px;
+}
+.mdiv .bcontainer{
+    display: flex;
+    width: calc(180px*7);
+
+}
+.mdiv .bcontainer .bx img{
+    height: 230px;
+    width: 175px;
+    margin-right: 15px;
+}
+
+.companyicons{
+    width: 70%;
+    margin: auto;
+    padding: auto;
+}
+.companyicons img{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+.maincontainerr{
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative; 
+    flex-wrap: wrap;
+    margin: auto;
+    height: 270px;
+
+}
+
+.maincontainerr .boxcontainerr{
+    max-width: 70%;
+    margin: auto;
+    width: calc(350px*6);
+    
+}
+.maincontainerr .boxcontainerr .ofl{
+    display: flex;
+    width: calc(280px*6);
+    overflow: hidden;
+}
+
+   
+.maincontainerr .boxcontainerr .ofl .boxx{
+    width: 250px;
+    height: 180px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.maincontainerr .boxcontainerr .ofl .boxx .infoo .subinfolast11{
+    text-align: center;
+}
+
+.tbtns{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.tbtns button{
+    border: none;
+    background-color: #ccc;
+    color: #ff3300;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 10px 55px 10px 55px;
+    border-radius: 5px;
+    filter: drop-shadow();
+}
+
+.para{
+    width: 70%;
+    margin: auto;
+}
+.para p{
+    font-size: 20px;
+}
+.hd{
+    width: 70%;
+    margin: auto;
+    margin-top: 250px;
+    box-sizing: border-box;
+    background: #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.hd .toph{
+    margin-bottom: 15px;
+}
+.hd .tpara p{
+    font-size: 14px;
+}
+.f12{
+    font-size: 12px;
+}
+.colorr{
+    background-color: 	#243342;
+    color: white;
+}
+.colorr .secdiv1{
+    max-width: 70%;
+    border-bottom:1px solid #beb2b2;
+    margin: auto;
+    display: flex;
+}
+.colorr .secdiv1 .div1sub1{
+    text-align: left;
+    padding: 50px 0px 50px 30px;
+    max-width: 400px;
+
+}
+
+.colorr .secdiv1 .div1sub1 img{
+    margin-right: 20px;
+}
+.colorr .secdiv1 .div1sub2{
+    text-align: right;
+    margin-left: 700px;
+    padding: 50px 0 50px 30px;
+
+
+}
+.colorr .secdiv1 .div1sub2 button{
+    padding:15px 20px 15px 20px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    background-color: #243342;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.colorr .secdiv2{
+    padding-top: 20px;
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #beb2b2;
+}
+
+.colorr .secdiv2 .div2sub1{
+    width: 350px;
+}
+
+.colorr .secdiv2 .div2sub2{
+    width: 350px;
+}
+.colorr .secdiv2 .div2sub3{
+    width: 350px;
+}
+
+
+.colorr .secdiv2 .div2sub1 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv2 .div2sub1 p{
+    color: white;
+    font-size: 12px;
+}
+.colorr .secdiv2 .div2sub2 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv2 .div2sub2 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv2 .div2sub3 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv2 .div2sub3 p{
+    color: white;
+    font-size: 12px;
+}
+
+
+.colorr .secdiv3{
+    padding-top: 20px;
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #beb2b2;
+}
+
+.colorr .secdiv3 .div3sub1{
+    width: 350px;
+}
+.colorr .secdiv3 .div3sub2{
+    width: 350px;
+}
+.colorr .secdiv3 .div3sub3{
+    width: 350px;
+}
+.colorr .secdiv3 .div3sub4{
+    width: 350px;
+}
+
+
+.colorr .secdiv3 .div3sub1 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv3 .div3sub1 p{
+    color: white;
+    font-size: 12px;
+}
+.colorr .secdiv3 .div3sub2 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv3 .div3sub2 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv3 .div3sub3 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv3 .div3sub3 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv3 .div3sub4 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv3 .div3sub4 p{
+    color: white;
+    font-size: 12px;
+}
+
+
+.colorr .secdiv4{
+    padding-top: 20px;
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #beb2b2;
+}
+
+.colorr .secdiv4 .div4sub1{
+    width: 350px;
+}
+.colorr .secdiv4 .div4sub2{
+    width: 350px;
+}
+.colorr .secdiv4 .div4sub3{
+    width: 350px;
+}
+.colorr .secdiv4 .div4sub4{
+    width: 350px;
+}
+
+
+.colorr .secdiv4 .div4sub1 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv4 .div4sub1 p{
+    color: white;
+    font-size: 12px;
+}
+.colorr .secdiv4 .div4sub2 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv4 .div4sub2 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv4 .div4sub3 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv4 .div4sub3 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv4 .div4sub4 span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.colorr .secdiv4 .div4sub4 p{
+    color: white;
+    font-size: 12px;
+}
+
+.colorr .secdiv6{
+    padding-top: 20px;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #beb2b2;
+}
+.colorr .secdiv6 h3{
+    color: white;
+    font-weight: bold;
+}
+.colorr .secdiv6 span{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.colorr .secdiv6 p{
+    padding-top: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.colorr .secdiv7{
+    padding-top: 20px;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.colorr .secdiv7 p{
+    color: white;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+    
+
+   
+   
